@@ -1,0 +1,10 @@
+<h1>This is my first devise...</h1>
+
+<div class="col-md-12">
+  <% if current_user %>
+      <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: "btn btn-primary" %>
+  <% else %>
+      <%= link_to 'Login', new_user_session_path, class: "btn btn-primary" %>
+      <%= link_to "Sign up", new_registration_path(resource_name), class: 'btn btn-primary' %><br />
+  <% end %>
+</div>
