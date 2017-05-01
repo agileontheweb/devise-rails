@@ -8,7 +8,7 @@ Rails.application.configure do
       authentication: "plain",
       enable_starttls_auto: true,
       user_name: "agileontheweb@gmail.com",
-      password: "resist2015"
+      password: ""
 
   }
   # In the development environment your application's code is reloaded on
